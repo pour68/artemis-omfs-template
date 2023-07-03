@@ -1,0 +1,18 @@
+.container {
+    width: 100%;
+    max-width: 1132px;
+    padding-inline: 1rem;
+    margin-inline: auto;
+}
+
+.persian-font {
+    font-family: var(--ff-byekan);
+}
+
+.english-poppins-font {
+    font-family: var(--ff-poppins);
+}
+
+.english-playfair-font {
+    font-family: var(--ff-playfair);
+}

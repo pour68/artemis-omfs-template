@@ -6,11 +6,14 @@
 
     --black-color: #000;
     --white-color: #fff;
+    --grey-color: rgba(255, 255, 255, 0.3);
 
     --ff-playfair: 'Playfair Display', serif;;
-    --ff-poppings: 'Poppins', sans-serif;;
+    --ff-poppins: 'Poppins', sans-serif;;
     --ff-byekan: 'Byekan', Arial, sans-serif;
 
+    --fs-bigger: 5rem;
+    --fs-big: 4.5rem;
     --fs-xxxl: 3.5rem;
     --fs-xxl: 2.25rem;
     --fs-xl: 1.5rem;
@@ -37,6 +40,8 @@
 /* mobile */
 @media (max-width: 580px) {
     :root {
+        --fs-bigger: 3.5rem;
+        --fs-big: 3rem;
         --fs-xxxl: 2rem;
         --fs-xxl: 1.5rem;
         --fs-xl: 1.25rem;
@@ -44,5 +49,20 @@
         --fs-md: 0.938rem;
         --fs-sm: 0.813rem;
         --fs-xs: 0.75rem;
+    }
+}
+
+/* feature phones */
+@media (max-width: 340px) {
+    :root {
+        --fs-bigger: 2rem;
+        --fs-big: 1.5rem;
+        --fs-xxxl: 1.5rem;
+        --fs-xxl: 1.25rem;
+        --fs-xl: 0.938rem;
+        --fs-lg: 0.813rem;
+        --fs-md: 0.75rem;
+        --fs-sm: 0.625rem;
+        --fs-xs: 0.5rem;
     }
 }

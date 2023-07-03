@@ -3,6 +3,7 @@
 @import "./layouts/reset.css";
 @import "./layouts/utils.css";
 @import "./layouts/theme.css";
+@import "./layouts/quickaccess.css"; /* index.html */
 @import "./layouts/home.css";
 
 /* components */
