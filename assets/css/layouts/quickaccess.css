@@ -102,6 +102,6 @@
 /* mobile */
 @media (max-width: 768px) {
     .quickaccess {
-        background-size: 256px;
+        background-size: 360px;
     }
 }
