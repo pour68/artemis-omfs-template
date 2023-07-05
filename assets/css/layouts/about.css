@@ -1,0 +1,10 @@
+.about__hero {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-3);
+    margin-block: var(--space-3);
+}
+
+.about__hero img {
+    border-radius: 4px;
+}

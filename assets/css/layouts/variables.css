@@ -4,6 +4,8 @@
 :root {
     --header-height: 3.5rem;
 
+    --primary-color: #008f7f;
+    --success-color: #f0fdf5;
     --black-color: #000;
     --white-color: #fff;
     --grey-color: rgba(255, 255, 255, 0.5);

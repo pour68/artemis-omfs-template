@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fs-IR" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/messages.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" />
+    <title> کلینیک دکتر یوسف جانباز </title>
+</head>
+
+<body>
+
+    <header class="header" id="header">
+        <nav class="nav container persian-font">
+            <div class="nav__top">
+                <figure class="nav__figure">
+                    <img src="" alt="" class="nav__logo" />
+                </figure>
+
+                <div class="nav__search">
+                    <form method="get">
+                        <div class="search">
+                            <input type="text" class="search-input persian-font" placeholder="جستجو..." />
+                            <button type="submit" class="search-btn search-btn-persian">
+                                <i class="ri-search-line search-icon"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#" class="nav__link">صفحه اصلی</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">مقالات</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">ویدیوها</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">رزومه ها</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./downloads.html" class="nav__link">دانلودها</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">همکاران</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./contact.html" class="nav__link active">تماس با ما</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">درباره ما</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main" id="main">
+        <div class="message pt-1">
+            <div class="message__container persian-font container">
+                <div class="message__content">
+
+                    <!-- contact fields component -->
+                    <nav class="option option-green p-2">
+                        <ul>
+                            <li>
+                                <a href="./contact.html">اطلاعات تماس</a>
+                            </li>
+                            <li>
+                                <a href="./feedback.html" class="active">ارسال پیام</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- contact fields component -->
+
+                    <section class="message__interaction mt-2">
+
+                        <header>
+                            <h1>ارسال پیام</h1>
+                            <p>لطفاٌ با ارسال پیام های خود ما را از بهبود ارائه خدمات یاری نمایید</p>
+                        </header>
+
+                        <form method="post" class="mw-512 my-3">
+                            <!-- title -->
+                            <div class="form-group">
+                                <label for="title" class="form-label">عنوان</label>
+                                <input id="title" type="text" class="form-input" />
+                            </div>
+                            <!-- /title -->
+
+                            <!-- fullName -->
+                            <div class="form-group">
+                                <label for="fullname" class="form-label">نام و نام خانوادگی</label>
+                                <input id="fullname" type="text" class="form-input" />
+                            </div>
+                            <!-- /fullName -->
+
+                            <!-- phone number -->
+                            <div class="form-group">
+                                <label for="phonenumber" class="form-label">شماره تلفن</label>
+                                <input id="phonenumber" type="text" class="form-input" />
+                            </div>
+                            <!-- /phone number -->
+
+                            <!-- body -->
+                            <div class="form-group">
+                                <label for="body" class="form-label">متن پیام</label>
+                                <textarea id="body" type="text" rows="5" class="form-input"></textarea>
+                            </div>
+                            <!-- /body -->
+
+                            <button class="btn btn-outline-primary mt-2 persian-font">ارسال</button>
+                        </form>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>

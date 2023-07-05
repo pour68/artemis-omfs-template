@@ -1,0 +1,23 @@
+.breadcrumb {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    font-size: var(--fs-sm);
+}
+
+.breadcrumb li::after {
+    display: inline-inline;
+    content: ">";
+    padding-right: 0.5rem;
+    font-weight: var(--fw-semibold);
+}
+
+.breadcrumb.en li::after {
+    padding-left: 0.5rem;
+    padding-right: 0;
+}
+
+.breadcrumb li:last-child::after {
+    content: "";
+}

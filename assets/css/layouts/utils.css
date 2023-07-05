@@ -5,6 +5,10 @@
     margin-inline: auto;
 }
 
+.section {
+    margin-block:4rem;
+}
+
 .persian-font {
     font-family: var(--ff-byekan);
 }
@@ -15,4 +19,42 @@
 
 .english-playfair-font {
     font-family: var(--ff-playfair);
+}
+
+.mw-512 {
+    width: 100%;
+    max-width: 360px;
+}
+
+.mt-2 { 
+    margin-top: var(--space-2);
+}
+
+.mb-2 { 
+    margin-bottom: var(--space-2);
+}
+
+.mt-2 { 
+    margin-top: var(--space-2);
+}
+
+
+.mb-4 { 
+    margin-bottom: var(--space-4);
+}
+
+.mb-0 { 
+    margin-bottom: 0;
+}
+
+.my-3 {
+    margin-block: var(--space-3);
+}
+
+.pt-1 { 
+    padding-top: var(--space-1);
+}
+
+.p-2 { 
+    padding: var(--space-2);
 }

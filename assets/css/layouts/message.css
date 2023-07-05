@@ -1,0 +1,4 @@
+.message__interaction header p {
+    color: #555;
+    font-size: var(--fs-sm);
+}

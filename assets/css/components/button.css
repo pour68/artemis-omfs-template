@@ -1,0 +1,14 @@
+.btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: var(--space-1);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-outline-primary {
+    border: 1px solid var(--primary-color);
+    color: #777;
+}

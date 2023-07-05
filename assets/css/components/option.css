@@ -1,0 +1,27 @@
+.option-green {
+    background-color: var(--success-color);
+}
+
+.option ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    font-size: var(--fs-sm);
+}
+
+.option a {
+    display: inline-block;
+    color: var(--primary-color);
+    padding-inline: 0.5rem;
+    border-radius: 4px;
+}
+
+.option a:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.option a.active {
+    background-color: var(--black-color);
+    color: var(--white-color);
+}
