@@ -1,0 +1,37 @@
+.post-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+}
+
+.post-item {
+    display: grid;
+    grid-template-columns: 195px 1fr;
+    align-items: center;
+    gap: var(--space-2);
+}
+
+.post-figure img {
+    border-radius: 4px;
+}
+
+.post-info a {
+    color: var(--primary-color);
+}
+
+.post-info section p {
+    font-size: 0.75rem;
+    color: var(--lightgrey-color);
+}
+
+.post-info div p {
+    color: var(--darkgrey-color);
+    font-size: var(--fs-sm);
+}
+
+@media (max-width: 768px) {
+    .post-info {
+        grid-template-columns: 128px 1fr;
+        align-items: flex-start;
+    }
+}

@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/downloads.css" />
+    <link rel="stylesheet" href="assets/css/videos.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" />
-    <title> دانلودها </title>
+    <title> کلینیک دکتر یوسف جانباز </title>
 </head>
 
 <body>
@@ -55,13 +55,13 @@
                     <a href="./articles.html" class="nav__link">مقالات</a>
                 </li>
                 <li class="nav__item">
-                    <a href="./videos.html" class="nav__link">ویدیوها</a>
+                    <a href="./videos.html" class="nav__link active">ویدیوها</a>
                 </li>
                 <li class="nav__item">
                     <a href="./resumes.html" class="nav__link">رزومه ها</a>
                 </li>
                 <li class="nav__item">
-                    <a href="./downloads.html" class="nav__link active">دانلودها</a>
+                    <a href="./downloads.html" class="nav__link">دانلودها</a>
                 </li>
                 <li class="nav__item">
                     <a href="./contributes.html" class="nav__link">همکاران</a>
@@ -73,107 +73,144 @@
         </nav>
     </header>
 
-    <main id="main" class="main persian-font">
-        <div class="download pt-1">
-            <div class="download__container container">
-                <div class="download__content">
-                    <!-- download category -->
+    <main id="main" class="main">
+        <div class="video pt-1">
+            <div class="video__container persian-font container">
+                <div class="video__content">
+                    <!-- video fields component -->
                     <nav class="option option-green p-2">
                         <ul>
                             <li>
-                                <a href="#" class="active">بروشور</a>
+                                <a href="#" class="active">آخرین ویدیوها</a>
                             </li>
                             <li>
-                                <a href="#">نحوه استفاده</a>
+                                <a href="#">معرفی</a>
                             </li>
                             <li>
-                                <a href="#">کاتالوگ ها</a>
-                            </li>
-                            <li>
-                                <a href="#">فورم ها</a>
-                            </li>
-                            <li>
-                                <a href="#">پاسپورت ایمپلنت</a>
+                                <a href="#">تکنیک ها</a>
                             </li>
                         </ul>
                     </nav>
-                    <!-- download category -->
+                    <!-- /video fields component -->
 
-                    <!-- download list -->
-                    <div class="download__data mt-2">
-                        <div class="download__panel panel">
-                            <div class="download__panel--left">
-                                <ul>
-                                    <li>
-                                        <a href="./downloads.html" class="active">فارسی</a>
-                                    </li>
-                                    <li>
-                                        <a href="./downloads-en.html">English</a>
-                                    </li>
-                                </ul>
+                    <!-- video panel -->
+                    <div class="video__data mt-2">
+                        <div class="video__panel panel">
+                            <div class="video__panel--left post-left">
+                                <h3 class="mb-1">کتابخانه ویدیوهای آرتمیس</h3>
+                                <p>به کتابخانه ویدیوهای آرتمیس خوش آمدید، پست های ویدیویی ما مداوم در این بخش به
+                                    روزرسانی می شوند.</p>
+                                <div class="mt-1">
+                                    <form method="get">
+                                        <div class="search">
+                                            <input type="text" class="search-input persian-font"
+                                                placeholder="جستجو ویدیو..." />
+                                            <button type="submit" class="search-btn search-btn-persian">
+                                                <i class="ri-search-line search-icon"></i>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
                             </div>
-
-                            <section class="download__panel--right">
+                            <div class="video__panel--right">
                                 <header class="mb-4">
                                     <ul class="breadcrumb">
                                         <li>
                                             <a href="./clinic.html">صفحه اصلی</a>
                                         </li>
                                         <li>
-                                            دانلودها
+                                            آخرین ویدیوها
                                         </li>
                                     </ul>
 
-                                    <h3 class="mt-2">دانلود بروشورها</h3>
+                                    <h3 class="mt-2">آخرین ویدیوها</h3>
                                 </header>
 
-                                <ul class="download__list">
-                                    <li>
-                                        <figure>
-                                            <img src="assets/imgs/thumbnails/pdf-bicon-intro.jpg" alt="" />
+                                <ul class="post-list">
+                                    <!-- video item component -->
+                                    <li class="post-item">
+                                        <figure class="post-figure">
+                                            <a href="#">
+                                                <img src="assets/imgs/videos/implant.jpg" alt="implant" />
+                                            </a>
                                         </figure>
 
-                                        <article>
-                                            <h4>معرفی آرتمیس</h4>
-                                            <p><small>LIT-235</small></p>
-                                            <a href="#">دانلود فایل</a>
+                                        <div class="post-info">
+                                            <section class="mb-1">
+                                                <h4>
+                                                    <a href="#">تکنیک های بازیابی و آزمایشگاهی</a>
+                                                </h4>
+                                                <p>
+                                                    تاریخ پست <time>1 خرداد 1403</time> در حوزه <span>معرفی</span>،
+                                                    <span>تکنیک ها</span>
+                                                </p>
+                                            </section>
+                                            <div>
+                                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                                                    استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
+                                                    ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
+                                                    کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <!-- /video item component -->
 
-                                            <i class="ri-download-2-line"></i>
-                                        </article>
+                                    <li class="post-item">
+                                        <figure class="post-figure">
+                                            <a href="#">
+                                                <img src="assets/imgs/videos/implant.jpg" alt="implant" />
+                                            </a>
+                                        </figure>
+
+                                        <div class="post-info">
+                                            <section class="mb-1">
+                                                <h4>
+                                                    <a href="#">تکنیک های بازیابی و آزمایشگاهی</a>
+                                                </h4>
+                                                <p>
+                                                    تاریخ پست <time>1 خرداد 1403</time> در حوزه <span>معرفی</span>،
+                                                    <span>تکنیک ها</span>
+                                                </p>
+                                            </section>
+                                            <div>
+                                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                                                    استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
+                                                    ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
+                                                    کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                                            </div>
+                                        </div>
                                     </li>
 
-                                    <li>
-                                        <figure>
-                                            <img src="assets/imgs/thumbnails/pdf-bicon-shortImplant.jpg" alt="" />
+                                    <li class="post-item">
+                                        <figure class="post-figure">
+                                            <a href="#">
+                                                <img src="assets/imgs/videos/implant.jpg" alt="implant" />
+                                            </a>
                                         </figure>
 
-                                        <article>
-                                            <h4>معرفی آرتمیس</h4>
-                                            <p><small>LIT-235</small></p>
-                                            <a href="#">دانلود فایل</a>
-
-                                            <i class="ri-download-2-line"></i>
-                                        </article>
-                                    </li>
-
-                                    <li>
-                                        <figure>
-                                            <img src="assets/imgs/thumbnails/pdf-synthoGraft.jpg" alt="" />
-                                        </figure>
-
-                                        <article>
-                                            <h4>معرفی آرتمیس</h4>
-                                            <p><small>LIT-235</small></p>
-                                            <a href="#">دانلود فایل</a>
-
-                                            <i class="ri-download-2-line"></i>
-                                        </article>
+                                        <div class="post-info">
+                                            <section class="mb-1">
+                                                <h4>
+                                                    <a href="#">تکنیک های بازیابی و آزمایشگاهی</a>
+                                                </h4>
+                                                <p>
+                                                    تاریخ پست <time>1 خرداد 1403</time> در حوزه <span>معرفی</span>،
+                                                    <span>تکنیک ها</span>
+                                                </p>
+                                            </section>
+                                            <div>
+                                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                                                    استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
+                                                    ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
+                                                    کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                                            </div>
+                                        </div>
                                     </li>
                                 </ul>
-                            </section>
+                            </div>
                         </div>
                     </div>
-                    <!-- /download list -->
+                    <!-- /video panel -->
                 </div>
             </div>
         </div>
@@ -293,7 +330,6 @@
         </div>
     </footer>
     <!-- footer shared -->
-
 </body>
 
 </html>

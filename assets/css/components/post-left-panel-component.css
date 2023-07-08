@@ -1,0 +1,8 @@
+.post-left h3 {
+    font-size: var(--fs-md);
+}
+
+.post-left p {
+    font-size: var(--fs-xs);
+    color: var(--lightgrey-color);
+}

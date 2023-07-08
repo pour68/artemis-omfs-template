@@ -1,6 +1,8 @@
+/* configs */
+@import "./configs/variables-config.css";
+@import "./configs/reset-config.css";
+@import "./configs/utils-config.css";
+@import "./configs/theme-config.css";
+
 /* layouts */
-@import "./layouts/variables.css";
-@import "./layouts/reset.css";
-@import "./layouts/utils.css";
-@import "./layouts/theme.css";
-@import "./layouts/quickaccess.css";
+@import "./layouts/quickaccess-layout.css";

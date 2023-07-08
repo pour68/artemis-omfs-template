@@ -6,6 +6,10 @@
     font-size: var(--fs-sm);
 }
 
+.breadcrumb.en {
+    font-family: var(--ff-poppins);
+}
+
 .breadcrumb li::after {
     display: inline-inline;
     content: ">";

@@ -1,0 +1,9 @@
+.change-theme {
+    display: inline-block;
+    padding: 0.25rem var(--space-1);
+    cursor: pointer;
+    color: var(--black-color);
+    border-radius: 4px;
+    box-shadow: inset -2px -2px 4px rgba(0,0,0,0.1), 
+                inset 2px 2px 4px rgba(0,0,0,0.1);
+}

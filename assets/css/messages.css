@@ -1,12 +1,19 @@
-@import "./layouts/variables.css";
-@import "./layouts/reset.css";
-@import "./layouts/utils.css";
-@import "./layouts/theme.css";
-@import "./layouts/nav.css";
-@import "./layouts/message.css";
+/* configs */
+@import "./configs/variables-config.css";
+@import "./configs/reset-config.css";
+@import "./configs/utils-config.css";
+@import "./configs/theme-config.css";
 
-@import "./components/button.css";
-@import "./components/search.css";
-@import "./components/breadcrumb.css";
-@import "./components/option.css";
-@import "./components/form.css";
+/* shared */
+@import "./shared/nav-shared.css";
+@import "./shared/footer-shared.css";
+
+/* layouts */
+@import "./layouts/message-layout.css";
+
+/* components */
+@import "./components/button-component.css";
+@import "./components/search-component.css";
+@import "./components/breadcrumb-component.css";
+@import "./components/option-component.css";
+@import "./components/form-component.css";

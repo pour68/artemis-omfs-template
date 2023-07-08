@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/messages.css" />
+    <link rel="stylesheet" href="assets/css/testimonials.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" />
-    <title> کلینیک دکتر یوسف جانباز </title>
+    <title> لیست دکترهای فعال </title>
 </head>
 
 <body>
@@ -67,70 +67,102 @@
                     <a href="./contributes.html" class="nav__link">همکاران</a>
                 </li>
                 <li class="nav__item">
-                    <a href="./about.html" class="nav__link">درباره ما</a>
+                    <a href="./about.html" class="nav__link active">درباره ما</a>
                 </li>
             </ul>
         </nav>
     </header>
 
     <main class="main" id="main">
-        <div class="message pt-1">
-            <div class="message__container persian-font container">
-                <div class="message__content">
-
-                    <!-- contact fields component -->
+        <div class="testimonial pt-1">
+            <div class="testimonial__container persian-font container">
+                <div class="testimonial__content">
+                    <!-- about fields component -->
                     <nav class="option option-green p-2">
                         <ul>
                             <li>
-                                <a href="./contact.html">اطلاعات تماس</a>
+                                <a href="./about.html">معرفی</a>
                             </li>
                             <li>
-                                <a href="./feedback.html" class="active">ارسال پیام</a>
+                                <a href="./testimonials.html" class="active">لیست اعضا</a>
                             </li>
                         </ul>
                     </nav>
-                    <!-- contact fields component -->
+                    <!-- about fields component -->
 
-                    <section class="message__interaction mt-2">
-
-                        <header>
-                            <h1>ارسال پیام</h1>
-                            <p>لطفاٌ با ارسال پیام های خود ما را از بهبود ارائه خدمات یاری نمایید</p>
-                        </header>
-
-                        <form method="post" class="mw-512 my-3">
-                            <!-- title -->
-                            <div class="form-group">
-                                <label for="title" class="form-label">عنوان</label>
-                                <input id="title" type="text" class="form-input" />
+                    <!-- testimonial list -->
+                    <div class="testimonial__data mt-2">
+                        <div class="testimonial__panel panel">
+                            <div class="testimonial__panel--left">
+                                <ul>
+                                    <li>
+                                        <a href="#" class="active">همه اعضا</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">تیم دهان</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">تیم فک</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">تیم ایمپلنت</a>
+                                    </li>
+                                </ul>
                             </div>
-                            <!-- /title -->
 
-                            <!-- fullName -->
-                            <div class="form-group">
-                                <label for="fullname" class="form-label">نام و نام خانوادگی</label>
-                                <input id="fullname" type="text" class="form-input" />
-                            </div>
-                            <!-- /fullName -->
+                            <section class="testimonial__panel--right">
+                                <header class="mb-4">
+                                    <ul class="breadcrumb">
+                                        <li>
+                                            <a href="./clinic.html">صفحه اصلی</a>
+                                        </li>
+                                        <li>
+                                            لیست اعضا
+                                        </li>
+                                    </ul>
 
-                            <!-- phone number -->
-                            <div class="form-group">
-                                <label for="phonenumber" class="form-label">شماره تلفن</label>
-                                <input id="phonenumber" type="text" class="form-input" />
-                            </div>
-                            <!-- /phone number -->
+                                    <h3 class="mt-2">لیست اعضا</h3>
+                                </header>
 
-                            <!-- body -->
-                            <div class="form-group">
-                                <label for="body" class="form-label">متن پیام</label>
-                                <textarea id="body" type="text" rows="5" class="form-input"></textarea>
-                            </div>
-                            <!-- /body -->
+                                <ul class="testimonial__list">
+                                    <li class="testimonial__item">
+                                        <figure>
+                                            <img src="assets/imgs/avatars/pouria-nayeb.png"
+                                                alt="پوریا نایب ابوالقاسم" />
+                                        </figure>
+                                        <div>
+                                            <section>
+                                                <h4>پوریا نایب ابوالقاسم</h4>
+                                                <small>برنامه نویس و توسعه دهنده وب</small>
+                                            </section>
+                                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+                                                طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان
+                                                که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با
+                                                هدف بهبود ابزارهای کاربردی می باشد</p>
+                                        </div>
+                                    </li>
 
-                            <button class="btn btn-outline-primary mt-2 persian-font">ارسال</button>
-                        </form>
-                    </section>
-
+                                    <li class="testimonial__item">
+                                        <figure>
+                                            <img src="assets/imgs/avatars/pouria-nayeb.png"
+                                                alt="پوریا نایب ابوالقاسم" />
+                                        </figure>
+                                        <div>
+                                            <section>
+                                                <h4>پوریا نایب ابوالقاسم</h4>
+                                                <small>برنامه نویس و توسعه دهنده وب</small>
+                                            </section>
+                                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+                                                طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان
+                                                که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با
+                                                هدف بهبود ابزارهای کاربردی می باشد</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </section>
+                        </div>
+                    </div>
+                    <!-- /testimonial list -->
                 </div>
             </div>
         </div>

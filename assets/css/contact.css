@@ -9,11 +9,9 @@
 @import "./shared/footer-shared.css";
 
 /* layouts */
-@import "./layouts/download-layout.css";
+@import "./layouts/contact-layout.css";
 
 /* components */
 @import "./components/search-component.css";
 @import "./components/breadcrumb-component.css";
 @import "./components/option-component.css";
-@import "./components/panel-component.css";
-@import "./components/pagination-component.css";

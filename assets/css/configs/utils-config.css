@@ -1,0 +1,80 @@
+.container {
+    width: 100%;
+    max-width: 1132px;
+    padding-inline: 1rem;
+    margin-inline: auto;
+}
+
+.section {
+    margin-block:4rem;
+}
+
+.persian-font {
+    font-family: var(--ff-byekan);
+}
+
+.english-poppins-font {
+    font-family: var(--ff-poppins);
+}
+
+.english-playfair-font {
+    font-family: var(--ff-playfair);
+}
+
+.mw-512 {
+    width: 100%;
+    max-width: 360px;
+}
+
+.mt-2 { 
+    margin-top: var(--space-2);
+}
+
+.mb-1 { 
+    margin-bottom: var(--space-1);
+}
+
+.mb-2 { 
+    margin-bottom: var(--space-2);
+}
+
+.mt-2 { 
+    margin-top: var(--space-2);
+}
+
+.mt-1 { 
+    margin-top: var(--space-1);
+}
+
+
+.mb-4 { 
+    margin-bottom: var(--space-4);
+}
+
+.mb-0 { 
+    margin-bottom: 0;
+}
+
+.my-3 {
+    margin-block: var(--space-3);
+}
+
+.pt-1 { 
+    padding-top: var(--space-1);
+}
+
+.p-2 { 
+    padding: var(--space-2);
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-grey {
+    color: var(--darkgrey-color);
+}
+
+.text-sm {
+    font-size: var(--fs-sm);
+}

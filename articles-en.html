@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/downloads.css" />
+    <link rel="stylesheet" href="assets/css/articles.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" />
-    <title> Downloads </title>
+    <title> Artemis article library </title>
 </head>
 
-<body>
+<body class="english-poppins-font">
 
     <header class="header" id="header">
         <nav class="nav container">
@@ -35,7 +35,7 @@
                 <div class="nav__search">
                     <form method="get">
                         <div class="search">
-                            <input type="text" class="search-input english-poppins-font" placeholder="ُSearch..." />
+                            <input type="text" class="search-input english-poppins-font" placeholder="Search..." />
                             <button type="submit" class="search-btn search-btn-english">
                                 <i class="ri-search-line search-icon"></i>
                             </button>
@@ -43,7 +43,6 @@
                     </form>
                 </div>
             </div>
-
             <ul class="nav__list en">
                 <li class="nav__item">
                     <a href="./clinic-en.html" class="nav__link">Home</a>
@@ -52,7 +51,7 @@
                     <a href="./cases-en.html" class="nav__link">Cases</a>
                 </li>
                 <li class="nav__item">
-                    <a href="./articles-en.html" class="nav__link">Articles</a>
+                    <a href="./articles-en.html" class="nav__link active">Articles</a>
                 </li>
                 <li class="nav__item">
                     <a href="./videos-en.html" class="nav__link">Videos</a>
@@ -61,7 +60,7 @@
                     <a href="./Resumes-en.html" class="nav__link">Resumes</a>
                 </li>
                 <li class="nav__item">
-                    <a href="./downloads-en.html" class="nav__link active">Downloads</a>
+                    <a href="./downloads-en.html" class="nav__link">Downloads</a>
                 </li>
                 <li class="nav__item">
                     <a href="./contributes-en.html" class="nav__link">Contributors</a>
@@ -74,100 +73,146 @@
     </header>
 
     <main id="main" class="main">
-        <div class="download pt-1">
-            <div class="download__container english-poppins-font container">
-                <div class="download__content">
-                    <!-- download category -->
+        <div class="article pt-1">
+            <div class="article__container english-poppins-font container">
+                <div class="article__content">
+                    <!-- article fields component -->
                     <nav class="option option-green p-2">
                         <ul>
                             <li>
-                                <a href="#" class="active">Brochures</a>
+                                <a href="#" class="active">Latest articles</a>
                             </li>
                             <li>
-                                <a href="#">Manuals</a>
+                                <a href="#">Dento</a>
                             </li>
                             <li>
-                                <a href="#">Catalogs</a>
-                            </li>
-                            <li>
-                                <a href="#">Forms</a>
-                            </li>
-                            <li>
-                                <a href="#">Passport Implant</a>
+                                <a href="#">Facial</a>
                             </li>
                         </ul>
                     </nav>
-                    <!-- download category -->
+                    <!-- /article fields component -->
 
-                    <!-- download list -->
-                    <div class="download__data mt-2">
-                        <div class="download__panel panel">
-                            <div class="download__panel--left persian-font">
-                                <ul>
-                                    <li>
-                                        <a href="./downloads.html">فارسی</a>
-                                    </li>
-                                    <li>
-                                        <a href="./downloads-en.html" class="active">English</a>
-                                    </li>
-                                </ul>
+                    <!-- article panel -->
+                    <div class="article__data mt-2">
+                        <div class="article__panel panel">
+                            <div class="article__panel--left post-left">
+                                <h3 class="mb-1">Artemis article Library</h3>
+                                <p>Welcome to the artemis article Library. The latest artemis articles will be regularly
+                                    posted here.</p>
+                                <div class="mt-1">
+                                    <form method="get">
+                                        <div class="search">
+                                            <input type="text" class="search-input english-poppins-font"
+                                                placeholder="Search articles..." />
+                                            <button type="submit" class="search-btn search-btn-english">
+                                                <i class="ri-search-line search-icon"></i>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
                             </div>
-
-                            <section class="download__panel--right en">
+                            <div class="article__panel--right">
                                 <header class="mb-4">
                                     <ul class="breadcrumb en">
                                         <li>
                                             <a href="./clinic-en.html">Home</a>
                                         </li>
                                         <li>
-                                            Downloads
+                                            Latest articles
                                         </li>
                                     </ul>
 
-                                    <h3 class="mt-2">Download brochures</h3>
+                                    <h3 class="mt-2">Latest articles</h3>
                                 </header>
 
-                                <ul class="download__list english-poppins-font">
-                                    <li>
-                                        <figure>
-                                            <img src="assets/imgs/thumbnails/pdf-bicon-intro.jpg" alt="" />
+                                <ul class="post-list">
+                                    <!-- article item component -->
+                                    <li class="post-item">
+                                        <figure class="post-figure">
+                                            <a href="#">
+                                                <img src="assets/imgs/articles/implant.jpg" alt="implant" />
+                                            </a>
                                         </figure>
 
-                                        <article>
-                                            <h4>Artemis introduction</h4>
-                                            <p><small>LIT-235</small></p>
-                                            <a href="#">Download file</a>
+                                        <div class="post-info">
+                                            <section class="mb-1">
+                                                <h4>
+                                                    <a href="#">Laboratory and Restorative Techniques</a>
+                                                </h4>
+                                                <p>
+                                                    Posted on <time>May 1, 2023</time> in <span>Introductory</span>,
+                                                    <span>Techniques</span>
+                                                </p>
+                                            </section>
+                                            <div>
+                                                <p>This comprehensive article presents time-proven techniques for
+                                                    restoring Bicon abutments with their 360 degrees of locking taper
+                                                    positioning to achieve unmatched clinical capabilities, such as the
+                                                    extra-oral cementation of crowns using a wide variety of materials.
+                                                    Additionally, techniques and various uses for the metal-free
+                                                    fiber-reinforced hybrid resin CAD/CAM material TRINIA® are shown.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <!-- /article item component -->
 
-                                            <i class="ri-download-2-line"></i>
-                                        </article>
+                                    <li class="post-item">
+                                        <figure class="post-figure">
+                                            <a href="#">
+                                                <img src="assets/imgs/articles/implant.jpg" alt="implant" />
+                                            </a>
+                                        </figure>
+
+                                        <div class="post-info">
+                                            <section class="mb-1">
+                                                <h4>
+                                                    <a href="#">Laboratory and Restorative Techniques</a>
+                                                </h4>
+                                                <p>
+                                                    Posted on <time>May 1, 2023</time> in <span>Introductory</span>,
+                                                    <span>Techniques</span>
+                                                </p>
+                                            </section>
+                                            <div>
+                                                <p>This comprehensive article presents time-proven techniques for
+                                                    restoring Bicon abutments with their 360 degrees of locking taper
+                                                    positioning to achieve unmatched clinical capabilities, such as the
+                                                    extra-oral cementation of crowns using a wide variety of materials.
+                                                    Additionally, techniques and various uses for the metal-free
+                                                    fiber-reinforced hybrid resin CAD/CAM material TRINIA® are shown.
+                                                </p>
+                                            </div>
+                                        </div>
                                     </li>
 
-                                    <li>
-                                        <figure>
-                                            <img src="assets/imgs/thumbnails/pdf-bicon-shortImplant.jpg" alt="" />
+                                    <li class="post-item">
+                                        <figure class="post-figure">
+                                            <a href="#">
+                                                <img src="assets/imgs/articles/implant.jpg" alt="implant" />
+                                            </a>
                                         </figure>
 
-                                        <article>
-                                            <h4>Artemis introduction</h4>
-                                            <p><small>LIT-235</small></p>
-                                            <a href="#">Download file</a>
-
-                                            <i class="ri-download-2-line"></i>
-                                        </article>
-                                    </li>
-
-                                    <li>
-                                        <figure>
-                                            <img src="assets/imgs/thumbnails/pdf-synthoGraft.jpg" alt="" />
-                                        </figure>
-
-                                        <article>
-                                            <h4>Artemis introduction</h4>
-                                            <p><small>LIT-235</small></p>
-                                            <a href="#">Download file</a>
-
-                                            <i class="ri-download-2-line"></i>
-                                        </article>
+                                        <div class="post-info">
+                                            <section class="mb-1">
+                                                <h4>
+                                                    <a href="#">Laboratory and Restorative Techniques</a>
+                                                </h4>
+                                                <p>
+                                                    Posted on <time>May 1, 2023</time> in <span>Introductory</span>,
+                                                    <span>Techniques</span>
+                                                </p>
+                                            </section>
+                                            <div>
+                                                <p>This comprehensive article presents time-proven techniques for
+                                                    restoring Bicon abutments with their 360 degrees of locking taper
+                                                    positioning to achieve unmatched clinical capabilities, such as the
+                                                    extra-oral cementation of crowns using a wide variety of materials.
+                                                    Additionally, techniques and various uses for the metal-free
+                                                    fiber-reinforced hybrid resin CAD/CAM material TRINIA® are shown.
+                                                </p>
+                                            </div>
+                                        </div>
                                     </li>
                                 </ul>
 
@@ -178,11 +223,10 @@
                                     <li><a href="#">4</a></li>
                                     <li><a href="#">5</a></li>
                                 </ul>
-
-                            </section>
+                            </div>
                         </div>
                     </div>
-                    <!-- /download list -->
+                    <!-- /video panel -->
                 </div>
             </div>
         </div>

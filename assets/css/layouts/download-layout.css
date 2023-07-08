@@ -2,12 +2,6 @@
     color: var(--black-color);
 }
 
-.download__panel {
-    display: grid;
-    grid-template-columns: 256px 1fr;
-    gap: 1.5rem;
-}
-
 .download__panel--left ul {
     display: flex;
     flex-direction: column;
@@ -78,11 +72,12 @@
     z-index: -1;
 }
 
-@media (max-width: 840px) {
-    .download__panel {
-        grid-template-columns: 1fr;
-    }
+.download__panel--right.en i {
+    left: 0;
+    right: -35%;
+}
 
+@media (max-width: 840px) {
     .download__panel--right ul {
         grid-template-columns: 1fr;
     }
