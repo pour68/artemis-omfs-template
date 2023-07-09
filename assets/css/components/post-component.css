@@ -15,8 +15,17 @@
     border-radius: 4px;
 }
 
+.post-figure img:hover {
+    opacity: 0.85;
+}
+
 .post-info a {
     color: var(--primary-color);
+}
+
+.post-info a:hover {
+    text-decoration: underline;
+    opacity: 0.85;
 }
 
 .post-info section p {
