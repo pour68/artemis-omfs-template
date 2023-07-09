@@ -1,0 +1,20 @@
+/* configs */
+@import "./configs/variables-config.css";
+@import "./configs/reset-config.css";
+@import "./configs/utils-config.css";
+@import "./configs/theme-config.css";
+
+/* shared */
+@import "./shared/nav-shared.css";
+@import "./shared/footer-shared.css";
+
+/* layouts */
+@import "./layouts/resume-layout.css";
+
+
+/* components */
+@import "./components/search-component.css";
+@import "./components/breadcrumb-component.css";
+@import "./components/option-component.css";
+@import "./components/panel-component.css";
+@import "./components/pagination-component.css";
