@@ -1,24 +1,24 @@
 <!DOCTYPE html>
-<html lang="fs-IR" dir="rtl">
+<html lang="en-US" dir="ltr">
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/messages.css" />
+    <link rel="stylesheet" href="assets/css/contributes.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" />
-    <title> کلینیک دکتر یوسف جانباز </title>
+    <title> usef janbaz clinic </title>
 </head>
 
-<body>
+<body class="english-poppins-font">
 
     <header class="header" id="header">
-        <nav class="nav container persian-font">
+        <nav class="nav container">
 
-            <div class="nav__top">
-                <span>دوشنبه, 19 تیر 1402</span>
+            <div class="nav__top en">
+                <span>Saturday, July 8th 2023</span>
                 <div class="nav__utils">
-                    <a href="./contact-en.html" class="text-uppercase">تماس با ما</a> |
-                    <div class="english-poppins-font">
+                    <a href="./contact-en.html" class="text-uppercase">Contact us</a> |
+                    <div>
                         <a href="./clinic.html">Fa</a> / <a href="./clinic-en.html">En</a>
                     </div> |
                     <span class="change-theme">
@@ -35,39 +35,38 @@
                 <div class="nav__search">
                     <form method="get">
                         <div class="search">
-                            <input type="text" class="search-input persian-font" placeholder="جستجو..." />
-                            <button type="submit" class="search-btn search-btn-persian">
+                            <input type="text" class="search-input english-poppins-font" placeholder="Search..." />
+                            <button type="submit" class="search-btn search-btn-english">
                                 <i class="ri-search-line search-icon"></i>
                             </button>
                         </div>
                     </form>
                 </div>
             </div>
-
-            <ul class="nav__list">
+            <ul class="nav__list en">
                 <li class="nav__item">
-                    <a href="./clinic.html" class="nav__link">صفحه اصلی</a>
+                    <a href="./clinic-en.html" class="nav__link active">Home</a>
                 </li>
                 <li class="nav__item">
-                    <a href="./cases.html" class="nav__link">قالب ها</a>
+                    <a href="./cases-en.html" class="nav__link">Cases</a>
                 </li>
                 <li class="nav__item">
-                    <a href="./articles.html" class="nav__link">مقالات</a>
+                    <a href="./articles-en.html" class="nav__link">Articles</a>
                 </li>
                 <li class="nav__item">
-                    <a href="./videos.html" class="nav__link">ویدیوها</a>
+                    <a href="./videos-en.html" class="nav__link">Videos</a>
                 </li>
                 <li class="nav__item">
-                    <a href="./resumes.html" class="nav__link">رزومه ها</a>
+                    <a href="./Resumes-en.html" class="nav__link">Resumes</a>
                 </li>
                 <li class="nav__item">
-                    <a href="./downloads.html" class="nav__link">دانلودها</a>
+                    <a href="./downloads-en.html" class="nav__link">Downloads</a>
                 </li>
                 <li class="nav__item">
-                    <a href="./contributes.html" class="nav__link">همکاران</a>
+                    <a href="./contributes-en.html" class="nav__link active">Contribute</a>
                 </li>
                 <li class="nav__item">
-                    <a href="./about.html" class="nav__link">درباره ما</a>
+                    <a href="./about-en.html" class="nav__link">About us</a>
                 </li>
             </ul>
         </nav>
@@ -75,17 +74,17 @@
 
     <main class="main" id="main">
         <div class="message pt-1">
-            <div class="message__container persian-font container">
+            <div class="message__container english-poppins-font container">
                 <div class="message__content">
 
                     <!-- contact fields component -->
                     <nav class="option option-green p-2">
                         <ul>
                             <li>
-                                <a href="./contact.html">اطلاعات تماس</a>
+                                <a href="./contact-en.html">Contact Information</a>
                             </li>
                             <li>
-                                <a href="./feedback.html" class="active">ارسال پیام</a>
+                                <a href="./feedback-en.html" class="active">Feedback</a>
                             </li>
                         </ul>
                     </nav>
@@ -94,41 +93,43 @@
                     <section class="message__interaction mt-2">
 
                         <header>
-                            <h1>ارسال پیام</h1>
-                            <p class="text-sm text-grey">لطفاٌ با ارسال پیام های خود ما را از بهبود ارائه خدمات یاری
-                                نمایید</p>
+                            <h1>Contribute request</h1>
+                            <p class="text-sm text-grey">Send your contribute request here, we will check it out as soon
+                                as possible.</p>
                         </header>
 
                         <form method="post" class="mw-512 my-3">
                             <!-- title -->
                             <div class="form-group">
-                                <label for="title" class="form-label">عنوان</label>
+                                <label for="title" class="form-label">Title</label>
                                 <input id="title" type="text" class="form-input" />
                             </div>
                             <!-- /title -->
 
                             <!-- fullName -->
                             <div class="form-group">
-                                <label for="fullname" class="form-label">نام و نام خانوادگی</label>
+                                <label for="fullname" class="form-label">FullName</label>
                                 <input id="fullname" type="text" class="form-input" />
                             </div>
                             <!-- /fullName -->
 
                             <!-- phone number -->
                             <div class="form-group">
-                                <label for="phonenumber" class="form-label">شماره تلفن</label>
+                                <label for="phonenumber" class="form-label">PhoneNumber</label>
                                 <input id="phonenumber" type="text" class="form-input" />
                             </div>
                             <!-- /phone number -->
 
                             <!-- body -->
                             <div class="form-group">
-                                <label for="body" class="form-label">متن پیام</label>
+                                <label for="body" class="form-label">Body</label>
                                 <textarea id="body" type="text" rows="5" class="form-input"></textarea>
                             </div>
                             <!-- /body -->
 
-                            <button class="btn btn-outline-primary mt-2 persian-font">ارسال</button>
+                            <button class="btn btn-outline-primary mt-2 persian-font">
+                                Send request
+                            </button>
                         </form>
                     </section>
 
@@ -138,83 +139,83 @@
     </main>
 
     <!-- footer shared -->
-    <footer id="footer" class="footer">
+    <footer id="footer" class="footer en">
         <div class="footer__container container">
             <div class="footer__content">
                 <div class="footer__top">
                     <div>
                         <section class="mb-2">
-                            <h6>درباره ما</h6>
+                            <h6>About</h6>
                             <ul>
                                 <li>
-                                    <a href="#">معرفی</a>
+                                    <a href="#">Introduction</a>
                                 </li>
                                 <li>
-                                    <a href="#">لیست اعضا</a>
+                                    <a href="#">Testimonials</a>
                                 </li>
                             </ul>
                         </section>
                     </div>
                     <div>
                         <section class="mb-2">
-                            <h6>دانلودها</h6>
+                            <h6>Downloads</h6>
                             <ul>
                                 <li>
-                                    <a href="#">بروشورها</a>
+                                    <a href="#">Brochures</a>
                                 </li>
                                 <li>
-                                    <a href="#">کاتالوگ ها</a>
+                                    <a href="#">Catalogs</a>
                                 </li>
                                 <li>
-                                    <a href="#">راهنما</a>
+                                    <a href="#">Manuals</a>
                                 </li>
                                 <li>
-                                    <a href="#">فورم ها</a>
+                                    <a href="#">Forms</a>
                                 </li>
                             </ul>
                         </section>
                     </div>
                     <div>
                         <section>
-                            <h6>تماس با ما</h6>
+                            <h6>Contact</h6>
                             <ul>
                                 <li>
-                                    <a href="#">اطلاعات عمومی</a>
+                                    <a href="#">General Information</a>
                                 </li>
                                 <li>
-                                    <a href="#">ارسال نظر</a>
+                                    <a href="#">Feedback</a>
                                 </li>
                             </ul>
                         </section>
                     </div>
                     <div>
                         <section>
-                            <h6>ویدیوها</h6>
+                            <h6>Videos</h6>
                             <ul>
                                 <li>
-                                    <a href="#">آخرین اخبار</a>
+                                    <a href="#">Latest videos</a>
                                 </li>
                                 <li>
-                                    <a href="#">معرفی</a>
+                                    <a href="#">Introductory</a>
                                 </li>
                                 <li>
-                                    <a href="#">تکنیک ها</a>
+                                    <a href="#">Techniques</a>
                                 </li>
                             </ul>
                         </section>
                     </div>
                     <div>
                         <section>
-                            <h6>مقالات</h6>
+                            <h6>Articles</h6>
                             <ul>
                                 <li>
-                                    <a href="#">آخرین مقالات</a>
+                                    <a href="#">Latest articles</a>
                                 </li>
                                 <li>
-                                    <a href="#">معرفی</a>
+                                    <a href="#">Introductory</a>
                                 </li>
                                 <li>
-                                    <a href="#">تکنیک ها</a>
+                                    <a href="#">Techniques</a>
                                 </li>
                             </ul>
                         </section>
@@ -224,24 +225,24 @@
                 <div class="footer__bottom">
                     <div class="footer__copyright">
                         <img src="./assets/imgs/resources/logo.png" alt="logo" />
-                        <span>&copy; حقوق مادی و معنوی محفوظ است.</span>
+                        <span>Copyright &copy; 2023, Iran-tehran</span>
                     </div>
 
                     <div class="footer__address">
                         <div>
-                            <p>آدرس:</p>
-                            <p>ایران, تهران, پاساژ آرتمیس</p>
+                            <p>Address:</p>
+                            <p>Iran, Tehran, Artemis mall</p>
                             <a href="mailto:artemis@gmail.com">artemis@gmail.com</a>
                         </div>
 
                         <div>
-                            <p>شماره ها:</p>
+                            <p>Tel:</p>
                             <p>(800) 882-4266</p>
                             <p>(617) 524-4443</p>
                         </div>
 
                         <div>
-                            <p>فکس:</p>
+                            <p>Fax:</p>
                             <p>(800) 882-4266</p>
                             <p>(617) 524-0096</p>
                         </div>
