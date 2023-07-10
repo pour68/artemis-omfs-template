@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/videos.css" />
+    <link rel="stylesheet" href="assets/css/cases.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" />
     <title> کلینیک دکتر یوسف جانباز </title>
 </head>
@@ -49,13 +49,13 @@
                     <a href="./clinic.html" class="nav__link">صفحه اصلی</a>
                 </li>
                 <li class="nav__item">
-                    <a href="./cases.html" class="nav__link">قالب ها</a>
+                    <a href="./cases.html" class="nav__link active">قالب ها</a>
                 </li>
                 <li class="nav__item">
                     <a href="./articles.html" class="nav__link">مقالات</a>
                 </li>
                 <li class="nav__item">
-                    <a href="./videos.html" class="nav__link active">ویدیوها</a>
+                    <a href="./videos.html" class="nav__link">ویدیوها</a>
                 </li>
                 <li class="nav__item">
                     <a href="./testimonials.html" class="nav__link">رزومه ها</a>
@@ -74,143 +74,171 @@
     </header>
 
     <main id="main" class="main">
-        <div class="video">
-            <div class="video__container persian-font container">
-                <div class="video__content">
-                    <!-- video fields component -->
+        <div class="article">
+            <div class="article__container persian-font container">
+                <div class="article__content">
+                    <!-- article fields component -->
                     <nav class="option option-green p-2">
                         <ul>
                             <li>
-                                <a href="#" class="active">آخرین ویدیوها</a>
+                                <a href="#" class="active">آخرین قالب ها</a>
                             </li>
                             <li>
-                                <a href="#">معرفی</a>
+                                <a href="#">تقویتی</a>
                             </li>
                             <li>
-                                <a href="#">تکنیک ها</a>
+                                <a href="#">جراحی</a>
+                            </li>
+                            <li>
+                                <a href="#">ایمپلنت کوتاه</a>
                             </li>
                         </ul>
                     </nav>
-                    <!-- /video fields component -->
+                    <!-- /article fields component -->
 
-                    <!-- video panel -->
-                    <div class="video__data mt-2">
-                        <div class="video__panel panel">
-                            <div class="video__panel--left post-left">
-                                <h3 class="mb-1">کتابخانه ویدیوهای آرتمیس</h3>
-                                <p>به کتابخانه ویدیوهای آرتمیس خوش آمدید، پست های ویدیویی ما مداوم در این بخش به
+                    <!-- article panel -->
+                    <div class="article__data mt-2">
+                        <div class="article__panel panel">
+                            <div class="article__panel--left post-left">
+                                <h3 class="mb-1">کتابخانه قالب ها آرتمیس</h3>
+                                <p>به کتابخانه قالب ها آرتمیس خوش آمدید، قالب ها در این بخش مداوم به
                                     روزرسانی می شوند.</p>
                                 <div class="mt-1">
                                     <form method="get">
                                         <div class="search">
                                             <input type="text" class="search-input persian-font"
-                                                placeholder="جستجو ویدیو..." />
+                                                placeholder="جستجو قالب ها..." />
                                             <button type="submit" class="search-btn search-btn-persian">
                                                 <i class="ri-search-line search-icon"></i>
                                             </button>
                                         </div>
                                     </form>
                                 </div>
+
+                                <div class="category">
+                                    <h6 class="category-title">دسته بندی ها</h6>
+
+                                    <ul class="category-list">
+                                        <li>
+                                            <a href="#">تقویتی</a>
+                                            <ul>
+                                                <li><a href="#">تاج های تمام سرامیک</a></li>
+                                                <li><a href="#">پل ها</a></li>
+                                                <li><a href="#">ثابت</a></li>
+                                                <li><a href="#">ثابت-جدا شدنی</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">جراحی</a>
+                                            <ul>
+                                                <li><a href="#">استخراج</a></li>
+                                                <li><a href="#">استقرار فوری</a></li>
+                                                <li><a href="#">ریج اسپیلت</a></li>
+                                                <li><a href="#">کشف کردن</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">ایمپلنت کوتاه</a></li>
+                                    </ul>
+                                </div>
+
                             </div>
-                            <div class="video__panel--right">
-                                <header class="mb-4">
+                            <div class="article__panel--right">
+                                <header>
                                     <ul class="breadcrumb">
                                         <li>
                                             <a href="./clinic.html">صفحه اصلی</a>
                                         </li>
                                         <li>
-                                            آخرین ویدیوها
+                                            <a href="./cases.html">قالب ها</a>
+                                        </li>
+                                        <li>
+                                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                                            استفاده از طراحان گرافیک است چاپگرها
                                         </li>
                                     </ul>
 
-                                    <h3 class="mt-2">آخرین ویدیوها</h3>
+                                    <h3 class="topic-title mt-2">
+                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                                        استفاده از طراحان گرافیک است چاپگرها
+                                    </h3>
+                                    <p class="topic-date">
+                                        تاریخ پست <time>1 خرداد 1403</time> در حوزه <span>معرفی</span>،
+                                        <span>تکنیک ها</span>
+                                    </p>
                                 </header>
 
-                                <ul class="post-list">
-                                    <!-- video item component -->
-                                    <li class="post-item">
-                                        <figure class="post-figure">
-                                            <a href="#">
-                                                <img src="assets/imgs/videos/implant.jpg" alt="implant" />
-                                            </a>
-                                        </figure>
+                                <div class="topic-description">
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                                        استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
+                                        ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
+                                        کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد</p>
+                                    <p>
+                                        ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                                        استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
+                                        ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
+                                        کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
+                                    </p>
+                                </div>
 
-                                        <div class="post-info">
-                                            <section class="mb-1">
-                                                <h4>
-                                                    <a href="#">تکنیک های بازیابی و آزمایشگاهی</a>
-                                                </h4>
-                                                <p>
-                                                    تاریخ پست <time>1 خرداد 1403</time> در حوزه <span>معرفی</span>،
-                                                    <span>تکنیک ها</span>
-                                                </p>
-                                            </section>
-                                            <div>
-                                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-                                                    استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
-                                                    ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
-                                                    کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
-                                            </div>
+                                <div class="topic-video">
+                                    <div class="topic-video-item">
+                                        <div id="90571836114">
+                                            <script type="text/JavaScript"
+                                                src="https://www.aparat.com/embed/4yeLu?data[rnddiv]=90571836114&data[responsive]=yes"></script>
                                         </div>
-                                    </li>
-                                    <!-- /video item component -->
+                                    </div>
+                                </div>
 
-                                    <li class="post-item">
-                                        <figure class="post-figure">
-                                            <a href="#">
-                                                <img src="assets/imgs/videos/implant.jpg" alt="implant" />
-                                            </a>
-                                        </figure>
-
-                                        <div class="post-info">
-                                            <section class="mb-1">
-                                                <h4>
-                                                    <a href="#">تکنیک های بازیابی و آزمایشگاهی</a>
-                                                </h4>
-                                                <p>
-                                                    تاریخ پست <time>1 خرداد 1403</time> در حوزه <span>معرفی</span>،
-                                                    <span>تکنیک ها</span>
-                                                </p>
-                                            </section>
-                                            <div>
-                                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-                                                    استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
-                                                    ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
-                                                    کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
-                                            </div>
+                                <div class="topic-data">
+                                    <div class="topic-categories">
+                                        <strong>دسته بندی های مرتبط:</strong>
+                                        <div>
+                                            <a href="#" class="btn xs btn-primary">استیج 1</a>
+                                            <a href="#" class="btn xs btn-primary">روکش سیمانی خارجی دهان</a>
                                         </div>
-                                    </li>
-
-                                    <li class="post-item">
-                                        <figure class="post-figure">
-                                            <a href="#">
-                                                <img src="assets/imgs/videos/implant.jpg" alt="implant" />
-                                            </a>
-                                        </figure>
-
-                                        <div class="post-info">
-                                            <section class="mb-1">
-                                                <h4>
-                                                    <a href="#">تکنیک های بازیابی و آزمایشگاهی</a>
-                                                </h4>
-                                                <p>
-                                                    تاریخ پست <time>1 خرداد 1403</time> در حوزه <span>معرفی</span>،
-                                                    <span>تکنیک ها</span>
-                                                </p>
-                                            </section>
-                                            <div>
-                                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-                                                    استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
-                                                    ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
-                                                    کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
-                                            </div>
+                                    </div>
+                                    <div class="topic-tags">
+                                        <strong>برچسب ها:</strong>
+                                        <div>
+                                            <a href="#" class="btn xs btn-primary">اباتمنت های موقت قابل
+                                                اسکن</a>
+                                            <a href="#" class="btn xs btn-primary">تکیه گاه های جامع</a>
                                         </div>
-                                    </li>
-                                </ul>
+                                    </div>
+                                </div>
+
+                                <div class="topic-gallery">
+                                    <header class="mb-2">
+                                        <h5>گالری تصاویر</h5>
+                                        <p>
+                                            برای مشاهده عکس ها در ابعاد بزرگتر کافی است روی آن ها کلیک کنید.
+                                        </p>
+                                    </header>
+
+                                    <ul class="topic-list">
+                                        <li>
+                                            <a data-fslightbox="gallery"
+                                                href="/assets/imgs/resources/doctors-in-operation-room.jpg">
+                                                <img src="assets/imgs/resources/doctors-in-operation-room.jpg" alt="" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a data-fslightbox="gallery" href="/assets/imgs/resources/logo.png">
+                                                <img src="assets/imgs/resources/logo.png" alt="" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a data-fslightbox="gallery" href="/assets/imgs/resources/red-skull.jpg">
+                                                <img src="assets/imgs/resources/red-skull.jpg" alt="" />
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
                             </div>
                         </div>
                     </div>
-                    <!-- /video panel -->
+                    <!-- /article panel -->
                 </div>
             </div>
         </div>
@@ -330,6 +358,8 @@
         </div>
     </footer>
     <!-- footer shared -->
+
+    <script src="assets/js/libs/fslightbox.js"></script>
 </body>
 
 </html>

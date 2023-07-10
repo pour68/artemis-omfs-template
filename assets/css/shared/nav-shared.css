@@ -18,6 +18,11 @@
     font-family: var(--ff-poppins);
 }
 
+.nav__top a:hover {
+    opacity: 0.85;
+    text-decoration: underline;
+}
+
 .nav__utils {
     display: flex;
     align-items: center;

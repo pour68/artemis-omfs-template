@@ -2,8 +2,10 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 1rem;
+    flex-wrap: wrap;
+    column-gap: var(--space-2);
     font-size: var(--fs-sm);
+    color: var(--lightgrey-color);
 }
 
 .breadcrumb.en {

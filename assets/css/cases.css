@@ -18,5 +18,7 @@
 @import "./components/panel-component.css";
 @import "./components/post-component.css";
 @import "./components/post-left-panel-component.css";
+@import "./components/topic-component.css";
+@import "./components/button-component.css";
 @import "./components/category-component.css";
 @import "./components/pagination-component.css";
