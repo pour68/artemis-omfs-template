@@ -8,6 +8,11 @@
     font-size: var(--fs-md);
 }
 
+.option p.xs {
+    margin-top: var(--space-1);
+    font-size: var(--fs-xs);
+}
+
 .option ul {
     display: flex;
     flex-wrap: wrap;

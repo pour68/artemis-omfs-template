@@ -41,7 +41,7 @@
     overflow: hidden;
 }
 
-.testimonial__item i {
+.testimonial__item .file {
     position: absolute;
     left: -1.5%;
     bottom: -10%;
@@ -50,7 +50,7 @@
     z-index: -1;
 }
 
-.testimonial__item i.en {
+.testimonial__item .file.en {
     left: 85%;
 }
 

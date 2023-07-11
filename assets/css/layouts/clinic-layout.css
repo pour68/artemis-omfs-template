@@ -23,6 +23,7 @@
 }
 
 .clinic__description {
+    margin-top: var(--space-1);
     font-size: var(--fs-md);
     color: var(--darkgrey-color);
 }
@@ -53,6 +54,10 @@
     color: var(--darkgrey-color);
 }
 
+.feature__list.xs {
+    font-size: var(--fs-xs);
+}
+
 .feature__item {
     padding: var(--space-1) var(--space-2);
     border-radius: 4px;
@@ -67,6 +72,6 @@
     }
 
     .feature {
-        margin-block: var(--space-4);
+        margin-block: var(--space-5);
     }
 }
