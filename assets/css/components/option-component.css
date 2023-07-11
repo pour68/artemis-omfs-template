@@ -3,6 +3,11 @@
     border-radius: 4px;
 }
 
+.option p {
+    color: var(--darkgrey-color);
+    font-size: var(--fs-md);
+}
+
 .option ul {
     display: flex;
     flex-wrap: wrap;

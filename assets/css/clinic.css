@@ -4,9 +4,15 @@
 @import "./configs/utils-config.css";
 @import "./configs/theme-config.css";
 
+/* layouts */
+@import "./layouts/clinic-layout.css";
+
 /* shared */
 @import "./shared/nav-shared.css";
 @import "./shared/footer-shared.css";
 
 /* components */
 @import "./components/search-component.css";
+@import "./components/swiper-component.css";
+@import "./components/button-component.css";
+@import "./components/option-component.css";

@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet"
+        href="assets/css/libs/swiper/cdn.jsdelivr.net_npm_swiper@9.1.1_modules_scrollbar_scrollbar.min.css" />
     <link rel="stylesheet" href="assets/css/clinic.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" />
     <title> کلینیک دکتر یوسف جانباز </title>
@@ -75,24 +77,100 @@
 
     <main class="main" id="main">
         <div class="clinic">
-            <div class="clinic__container container">
+            <div class="clinic__container persian-font container">
+                <!-- about fields component -->
+                <nav class="option option-green p-2">
+                    <h3>کلینیک آرتمیس</h3>
+                    <p>
+                        تیم تخصصی فک، دهان و دندان دکتر یوسف جانباز با بیش از 15 سال سابقه فعالیت در این حوزه و با بهره
+                        گیری از آخرین تکنولوژی و ابزارهای حال حاضر دنیا کلیه خدمات جراحی، سلامت و زیبایی را به بیماران
+                        خود ارائه می نمایند.
+                    </p>
+                </nav>
+                <!-- about fields component -->
                 <div class="clinic__content">
 
                     <!-- slideshow -->
                     <div class="clinic__slideshow">
-
+                        <!-- Slider main container -->
+                        <div class="swiper">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
                     </div>
                     <!-- /slideshow -->
-
                     <!-- overview -->
                     <section class="clinic__overview">
+                        <h1 class="clinic__title">کلینیک فک، دهان و دندان آرتمیس</h1>
+                        <p class="clinic__description">تیم با تجربه و توانمند کلینیک آرتمیس تحت نظر دکتر یوسف جانباز
+                            آماده ارائه کلیه خدمات جراحی و
+                            ایمپلنت با آخرین روش ها و ابزارهای روز دنیا می باشد.</p>
 
+                        <div class="clinic__cta">
+                            <a href="#" class="text-primary">آشنایی بیشتر</a>
+                            <a href="#" class="btn sm btn-primary">
+                                <i class="ri-list-unordered"></i> &nbsp;
+                                لیست پزشکان
+                            </a>
+                        </div>
                     </section>
                     <!-- /overview -->
-
                 </div>
+
+                <!-- features -->
+                <div class="feature">
+                    <ul class="feature__list">
+                        <li class="feature__item">
+                            <i class="ri-team-line"></i> &nbsp;
+                            تیم با تجربه و حرفه ای
+                        </li>
+                        <li class="feature__item">
+                            <i class="ri-tools-line"></i> &nbsp;
+                            آخرین تکنولوژی و ابزارهای
+                        </li>
+                        <li class="feature__item">
+                            <i class="ri-empathize-line"></i> &nbsp;
+                            ارائه خدمات پس از درمان
+                        </li>
+                        <li class="feature__item">
+                            <i class="ri-hq-line"></i> &nbsp;
+                            محصولات مصرفی مرغوب
+                        </li>
+                    </ul>
+                </div>
+                <!-- /features -->
+
             </div>
-        </div>
     </main>
 
     <!-- footer shared -->
@@ -210,6 +288,23 @@
     </footer>
     <!-- footer shared -->
 
+    <script src="assets/js/libs/swiper/cdn.jsdelivr.net_npm_swiper@9.1.1_swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 100,
+                modifier: 2,
+                slideShadows: true,
+            },
+            loop: true
+        });
+    </script>
 </body>
 
 </html>

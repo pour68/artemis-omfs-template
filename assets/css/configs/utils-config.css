@@ -75,6 +75,10 @@
     color: var(--darkgrey-color);
 }
 
+.text-primary {
+    color: var(--primary-color);
+}
+
 .text-sm {
     font-size: var(--fs-sm);
 }
