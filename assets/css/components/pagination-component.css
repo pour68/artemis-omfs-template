@@ -2,7 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    gap: var(--space-1);
+    gap: 0.25rem;
+    font-family: var(--ff-poppins);
     margin-block: var(--space-4) var(--space-2);
 }
 
