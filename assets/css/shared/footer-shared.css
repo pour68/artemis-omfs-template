@@ -1,6 +1,6 @@
 .footer {
-    color: #333;
-    background-color: #f1f1f1;
+    color: var(--darkgrey-color);
+    background-color: var(--light-color);
     padding: var(--space-2);
     font-size: var(--fs-xs);
     margin-top: var(--space-3);
@@ -15,7 +15,7 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: var(--space-3);
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid var(--darkgrey-color);
     padding-block: var(--space-2);
     padding-inline: var(--space-1);
 }

@@ -28,6 +28,7 @@
 .category-list ul {
     list-style-type: circle;
     list-style-position: inside;
+    color: var(--black-color);
 }
 
 @media (max-width: 768px) {

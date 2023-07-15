@@ -3,6 +3,11 @@
     border-radius: 4px;
 }
 
+.option h3 {
+    color: var(--black-color);
+    font-size: var(--fs-md);
+}
+
 .option p {
     color: var(--darkgrey-color);
     font-size: var(--fs-md);

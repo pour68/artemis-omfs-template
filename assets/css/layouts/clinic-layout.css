@@ -20,6 +20,7 @@
 
 .clinic__title {
     font-size: var(--fs-xxl);
+    color: var(--black-color);
 }
 
 .clinic__description {

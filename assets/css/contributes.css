@@ -10,6 +10,7 @@
 
 /* layouts */
 @import "./layouts/contact-layout.css";
+@import "./layouts/message-layout.css";
 
 /* components */
 @import "./components/search-component.css";

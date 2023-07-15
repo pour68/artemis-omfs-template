@@ -27,3 +27,7 @@
 .breadcrumb li:last-child::after {
     content: "";
 }
+
+.breadcrumb a {
+    color: var(--black-color);
+}

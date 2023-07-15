@@ -10,7 +10,9 @@
     --white-color: #fff;
     --lightgrey-color: #868686;
     --darkgrey-color: #444;
-    --grey-color: rgba(255, 255, 255, 0.5);
+    --light-color: #f1f1f1;
+    --grey-color: rgba(255, 255, 255, 0.25);
+    --shadow-color: rgba(0,0,0,0.1);
 
     --ff-playfair: 'Playfair Display', serif;;
     --ff-poppins: 'Poppins', sans-serif;;

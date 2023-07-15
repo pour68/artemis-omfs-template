@@ -1,6 +1,7 @@
 .topic-title {
     font-size: var(--fs-xl);
     font-weight: var(--fw-medium);
+    color: var(--black-color);
 }
 
 .topic-date {

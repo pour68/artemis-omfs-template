@@ -18,6 +18,10 @@
     font-family: var(--ff-poppins);
 }
 
+.nav__top a {
+    color: var(--darkgrey-color);
+}
+
 .nav__top a:hover {
     opacity: 0.85;
     text-decoration: underline;
