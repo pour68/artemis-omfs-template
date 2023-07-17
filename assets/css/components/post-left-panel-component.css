@@ -1,5 +1,6 @@
 .post-left h3 {
     font-size: var(--fs-md);
+    color: var(--black-color);
 }
 
 .post-left p {

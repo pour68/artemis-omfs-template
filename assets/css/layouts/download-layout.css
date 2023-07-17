@@ -50,6 +50,7 @@
 
 .download__panel--right h3 {
     font-size: var(--fs-xxl);
+    color: var(--black-color);
 }
 
 .download__panel--right figure img {
